@@ -1,0 +1,7 @@
+{
+  "extends": ["angular-tslint-rules"],
+  "rulesDirectory": ["node_modules/codelyzer"],
+  "rules": {
+    "semicolon": false
+  }
+}
