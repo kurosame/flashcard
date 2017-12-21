@@ -1,5 +1,14 @@
 # Flashcard
 
+## Stack
+
+```sh
+Angular
+Yarn     # Package Manager
+Parcel   # Module Bundler
+Firebase # Hosting Service
+```
+
 ## Tasks
 
 ```sh
