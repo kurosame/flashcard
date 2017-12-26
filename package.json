@@ -3,13 +3,13 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html -o",
     "build": "parcel build index.html --public-url .",
     "deploy": "firebase deploy"
   },
   "dependencies": {
     "@angular/common": "^5.1.1",
-    "@angular/compiler": "^5.1.1",
+    "@angular/compiler": "^5.1.2",
     "@angular/core": "^5.1.1",
     "@angular/platform-browser": "^5.1.1",
     "@angular/platform-browser-dynamic": "^5.1.1",
@@ -20,6 +20,7 @@
     "angular-tslint-rules": "^1.1.0",
     "codelyzer": "^4.0.2",
     "parcel-bundler": "^1.2.1",
+    "parcel-plugin-typescript": "0.2.4",
     "prettier": "^1.9.2",
     "tslint": "^5.8.0",
     "tslint-config-prettier": "^1.6.0",
