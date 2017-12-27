@@ -1,4 +1,6 @@
 <div class="words">
-  <div class="title">{{ title.join(" ") }}</div>
-  <div class="description">{{ description }}</div>
+  <div *ngFor="let word of words | async">
+    <div class="title">{{ word.title }}</div>
+    <div class="description">{{ word.description }}</div>
+  </div>
 </div>
