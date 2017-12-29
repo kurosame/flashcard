@@ -1,6 +1,6 @@
 # Flashcard
 
-## Stack
+## Technology Stack
 
 ```sh
 Angular
