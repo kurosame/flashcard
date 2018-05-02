@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { AngularFireModule } from 'angularfire2'
-import { AngularFireDatabaseModule } from 'angularfire2/database'
+import { AngularFirestoreModule } from 'angularfire2/firestore'
 import { AngularFireAuthModule } from 'angularfire2/auth'
 import { env } from './env'
 import { WordsComponent } from './components/words.component'
@@ -10,7 +10,7 @@ import { WordsComponent } from './components/words.component'
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(env.firebase),
-    AngularFireDatabaseModule,
+    AngularFirestoreModule,
     AngularFireAuthModule
   ],
   declarations: [WordsComponent],
